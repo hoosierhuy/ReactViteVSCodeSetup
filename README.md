@@ -7,3 +7,5 @@ For `DevDependencies` run: `npm i -D vite@4.4.9 @vitejs/plugin-react@4.0.4 eslin
 For production `Dependencies` run: `npm i react react-dom`.
 
 Or you could just run `npm i` with the provided `package.json` file.
+
+I have also provided a VS Code `settings.json` file for your convinience, you can cherry pick whatever rule/rules that works for you.
