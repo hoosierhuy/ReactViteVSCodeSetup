@@ -1,7 +1,9 @@
 {
   "debug.console.fontSize": 14,
+  "diffEditor.ignoreTrimWhitespace": false,
   "editor.fontSize": 14,
   "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
   "editor.insertSpaces": false,
   "editor.minimap.enabled": false,
   "editor.tabSize": 2,
@@ -9,14 +11,11 @@
   "javascript.updateImportsOnFileMove.enabled": "always",
   "prettier.requireConfig": true,
   "prettier.htmlWhitespaceSensitivity": "strict",
-  "python.defaultInterpreterPath": "/usr/bin/python3",
   "terminal.integrated.fontFamily": "MesloLGS NF",
   "terminal.integrated.minimumContrastRatio": 1,
   "security.workspace.trust.untrustedFiles": "open",
   "window.title": "${activeEditorLong}${separator}${rootName}",
   "window.zoomLevel": 1.4,
   "workbench.iconTheme": "material-icon-theme",
-  "workbench.startupEditor": "none",
-  "diffEditor.ignoreTrimWhitespace": false,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "workbench.startupEditor": "none"
 }
