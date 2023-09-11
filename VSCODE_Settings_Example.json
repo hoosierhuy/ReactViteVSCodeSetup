@@ -1,0 +1,9 @@
+{
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "prettier.requireConfig": true,
+  "prettier.htmlWhitespaceSensitivity": "strict",
+  "terminal.integrated.fontFamily": "MesloLGS NF",
+  "terminal.integrated.minimumContrastRatio": 1
+}

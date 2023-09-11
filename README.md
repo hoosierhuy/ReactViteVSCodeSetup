@@ -4,8 +4,8 @@ I have removed the caret `^` in front of each NPM package so that you will insta
 
 For `DevDependencies` run: `npm i -D vite@4.4.9 @vitejs/plugin-react@4.0.4 eslint@8.48.0 eslint-config-prettier@9.0.0 eslint-plugin-import@2.28.1 eslint-plugin-jsx-a11y@6.7.1 eslint-plugin-react@7.33.2 prettier@3.0.3 eslint-plugin-prettier@5.0.0`.
 
-For production `Dependencies` run: `npm i react react-dom`.
+For production `Dependencies` run: `npm i react@18.2.0 react-dom@18.2.0`.
 
 Or you could just run `npm i` with the provided `package.json` file.
 
-I have also provided a VS Code `settings.json` file for your convinience, you can cherry pick whatever rule/rules that works for you.
+I have also provided a VS Code `VSCODE_Settings_Example.json` file for your convinience, you can cherry pick whatever rule/rules that works for you.
