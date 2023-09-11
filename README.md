@@ -1,4 +1,5 @@
 This is a starter template to setup React with ViteJS in VS Code.
+YouTube video: https://www.youtube.com/watch?v=p0akKP9UasQ
 
 I have removed the caret `^` in front of each NPM package so that you will install all known working packages.
 
