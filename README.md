@@ -1,8 +1,11 @@
 # This is a starter template to setup React with ViteJS in VS Code
 
-YouTube video: https://www.youtube.com/watch?v=p0akKP9UasQ
+## Updated on January 26th, 2025
 
-## As of June 4th, 2024, please install NPM Packages with `npm i --legacy-peer-deps` because with ESLint 9.x, there was breaking changes and Vite packages needs to catch all
+With ESLint 9+ we can no longer use the .eslintrc.json file format, we have to use the `eslint.config.mjs` or the TypeScript equivalent if you are using TypeScript.
+Documentation for migrating to ESLint 9+: <https://eslint.org/docs/latest/use/configure/migration-guide#start-using-flat-config-files>
+
+YouTube video: https://www.youtube.com/watch?v=p0akKP9UasQ
 
 One thing I did not cover in the video is the `eslint-plugin-react-hooks` package, which enforces the rules of Hooks, (https://react.dev/warnings/invalid-hook-call-warning). This package is implemented in the `eslintrc.json` file, in the "extends" array, as `"plugin:react-hooks/recommended"`. You can read more about it here: https://www.npmjs.com/package/eslint-plugin-react-hooks.
 
