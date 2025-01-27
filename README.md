@@ -1,9 +1,13 @@
 # This is a starter template to setup React with ViteJS in VS Code
 
+## Adjust to fit your needs as necessary
+
 ## Updated on January 26th, 2025
 
 With ESLint 9+ we can no longer use the .eslintrc.json file format, we have to use the `eslint.config.mjs` or the TypeScript equivalent if you are using TypeScript.
 Documentation for migrating to ESLint 9+: <https://eslint.org/docs/latest/use/configure/migration-guide#start-using-flat-config-files>
+
+Here is a link to useful ESLint CLI flags for your scripts: <https://eslint.org/docs/latest/use/command-line-interface>
 
 YouTube video: https://www.youtube.com/watch?v=p0akKP9UasQ
 

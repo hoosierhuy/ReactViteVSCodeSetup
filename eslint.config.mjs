@@ -12,55 +12,55 @@ import { FlatCompat } from '@eslint/eslintrc';
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 const compat = new FlatCompat({
-    baseDirectory: __dirname,
-    recommendedConfig: js.configs.recommended,
-    allConfig: js.configs.all,
+  baseDirectory: __dirname,
+  recommendedConfig: js.configs.recommended,
+  allConfig: js.configs.all,
 });
 
 export default [
-    ...fixupConfigRules(
-        compat.extends(
-            'eslint:recommended',
-            'plugin:import/errors',
-            'plugin:react/recommended',
-            'plugin:jsx-a11y/recommended',
-            'plugin:react-hooks/recommended',
-            'prettier',
-        ),
+  ...fixupConfigRules(
+    compat.extends(
+      'eslint:recommended',
+      'plugin:import/errors',
+      'plugin:react/recommended',
+      'plugin:jsx-a11y/recommended',
+      'plugin:react-hooks/recommended',
+      'prettier',
     ),
-    {
-        files: ['**/*.{js,mjs,cjs,ts,mts,cts,jsx,tsx}'],
-        plugins: {
-            react: fixupPluginRules(react),
-            import: fixupPluginRules(_import),
-            'jsx-a11y': fixupPluginRules(jsxA11Y),
-            prettier,
-        },
-        settings: {
-            react: {
-                fragment: 'Fragment',
-                version: 'detect',
-            },
-        },
-        languageOptions: {
-            globals: {
-                ...globals.browser,
-                ...globals.node,
-            },
-
-            ecmaVersion: 'latest',
-            sourceType: 'module',
-
-            parserOptions: {
-                ecmaFeatures: {
-                    jsx: true,
-                },
-            },
-        },
-
-        rules: {
-            'react/prop-types': 0,
-            'react/react-in-jsx-scope': 0,
-        },
+  ),
+  {
+    files: ['**/*.{js,cjs,mjs,ts,mts,cts,jsx,tsx}'],
+    plugins: {
+      react: fixupPluginRules(react),
+      import: fixupPluginRules(_import),
+      'jsx-a11y': fixupPluginRules(jsxA11Y),
+      prettier,
     },
+    settings: {
+      react: {
+        fragment: 'Fragment',
+        version: 'detect',
+      },
+    },
+    languageOptions: {
+      globals: {
+        ...globals.browser,
+        ...globals.node,
+      },
+
+      ecmaVersion: 'latest',
+      sourceType: 'module',
+
+      parserOptions: {
+        ecmaFeatures: {
+          jsx: true,
+        },
+      },
+    },
+
+    rules: {
+      'react/prop-types': 0,
+      'react/react-in-jsx-scope': 0,
+    },
+  },
 ];
