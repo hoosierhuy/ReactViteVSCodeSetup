@@ -16,3 +16,5 @@ One thing I did not cover in the video is the `eslint-plugin-react-hooks` packag
 I have removed the caret `^` in front of each NPM package so that you will install all known working packages.
 
 I have also provided a VS Code `VSCODE_Settings_Example.json` file for your convenience, you can cherry pick whatever rule/rules that works for you.
+
+If you would like to donate to my coffee fund: https://www.buymeacoffee.com/huy_nguyen_usa

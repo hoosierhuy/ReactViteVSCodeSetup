@@ -29,7 +29,7 @@ export default [
     ),
   ),
   {
-    files: ['**/*.{js,cjs,mjs,ts,mts,cts,jsx,tsx}'],
+    files: ['**/*.{js,cjs,ts,mts,cts,jsx,tsx}'],
     plugins: {
       react: fixupPluginRules(react),
       import: fixupPluginRules(_import),
