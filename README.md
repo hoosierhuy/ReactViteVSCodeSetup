@@ -17,4 +17,4 @@ I have removed the caret `^` in front of each NPM package so that you will insta
 
 I have also provided a VS Code `VSCODE_Settings_Example.json` file for your convenience, you can cherry pick whatever rule/rules that works for you.
 
-If you would like to donate to my coffee fund: https://www.buymeacoffee.com/huy_nguyen_usa
+If you would like to contribute to me coffee fund: https://www.paypal.com/donate/?business=XNPNP5FWN4B2A&no_recurring=0&item_name=I+provide+free+computer+science+training+to+everyone&currency_code=USD
